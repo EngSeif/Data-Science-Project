@@ -1,5 +1,5 @@
 [project]
-name = "Diabetes-Prediction"
+name = "diabetes_prediction"
 version = "0.1.0"
 description = ""
 authors = [
@@ -14,7 +14,7 @@ dependencies = [
 ]
 
 [tool.poetry]
-packages = [{include = "data_science", from = "src"}]
+packages = [{include = "diabetes_prediction", from = "src"}]
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
